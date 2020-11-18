@@ -1,4 +1,10 @@
 var plugins = [{
+      plugin: require('C:/Users/DELL/Desktop/gatsby_wb/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('C:/Users/DELL/Desktop/gatsby_wb/gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      options: {"plugins":[],"projectId":"kwlmhjmw","dataset":"production","watchMode":true,"token":"skoER90aJszClIkNKGLTBF9pM6PQS1tFt3EkRkFgvoY7j4PBcrAZUAMV57W1cUB5RMpq8wgWOnyssf1BwEQA8yfDuGp8SC1rraHhT7Ldfy3gDo71Lb7U9hxxNqcaOWjYYYofCGsLKRZyTz0jQEbJkkicICR8A4VoC18V9qcuO6yEpaX0aN91"},
+    },{
       plugin: require('C:/Users/DELL/Desktop/gatsby_wb/gatsby/gatsby-ssr'),
       options: {"plugins":[]},
     }]

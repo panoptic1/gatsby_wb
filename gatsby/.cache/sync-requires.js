@@ -11,6 +11,7 @@ exports.components = {
   "component---src-pages-index-js": hot(preferDefault(require("C:\\Users\\DELL\\Desktop\\gatsby_wb\\gatsby\\src\\pages\\index.js"))),
   "component---src-pages-order-js": hot(preferDefault(require("C:\\Users\\DELL\\Desktop\\gatsby_wb\\gatsby\\src\\pages\\order.js"))),
   "component---src-pages-pizzas-js": hot(preferDefault(require("C:\\Users\\DELL\\Desktop\\gatsby_wb\\gatsby\\src\\pages\\pizzas.js"))),
-  "component---src-pages-slicemasters-js": hot(preferDefault(require("C:\\Users\\DELL\\Desktop\\gatsby_wb\\gatsby\\src\\pages\\slicemasters.js")))
+  "component---src-pages-slicemasters-js": hot(preferDefault(require("C:\\Users\\DELL\\Desktop\\gatsby_wb\\gatsby\\src\\pages\\slicemasters.js"))),
+  "component---src-templates-pizza-js": hot(preferDefault(require("C:\\Users\\DELL\\Desktop\\gatsby_wb\\gatsby\\src\\templates\\Pizza.js")))
 }
 
