@@ -9,6 +9,7 @@ exports.components = {
   "component---src-pages-404-js": hot(preferDefault(require("C:\\Users\\DELL\\Desktop\\gatsby_wb\\gatsby\\src\\pages\\404.js"))),
   "component---src-pages-beers-js": hot(preferDefault(require("C:\\Users\\DELL\\Desktop\\gatsby_wb\\gatsby\\src\\pages\\beers.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("C:\\Users\\DELL\\Desktop\\gatsby_wb\\gatsby\\src\\pages\\index.js"))),
+  "component---src-pages-nonsense-js": hot(preferDefault(require("C:\\Users\\DELL\\Desktop\\gatsby_wb\\gatsby\\src\\pages\\nonsense.js"))),
   "component---src-pages-order-js": hot(preferDefault(require("C:\\Users\\DELL\\Desktop\\gatsby_wb\\gatsby\\src\\pages\\order.js"))),
   "component---src-pages-pizzas-js": hot(preferDefault(require("C:\\Users\\DELL\\Desktop\\gatsby_wb\\gatsby\\src\\pages\\pizzas.js"))),
   "component---src-pages-slicemasters-js": hot(preferDefault(require("C:\\Users\\DELL\\Desktop\\gatsby_wb\\gatsby\\src\\pages\\slicemasters.js"))),
