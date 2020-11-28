@@ -23,49 +23,49 @@ const SingleBeerStyles = styled.div`
     color: var(--black);
   }
 `;
-export default function BeersPage({ data }) {
-  return (
-    <>
-      <h2 className="center">
-        We have ${data.beers.nodes.length} beers avaial
-      </h2>
-      <BeerGridStyles>
-        {data.beers.nodes.map((beer) => {
-          const rating = Math.round(beer.rating.average);
-          return (
-            <SingleBeerStyles key={beer.id}>
-              <img src={beer.image} alt={beer.name} />
-              <h3>{beer.name}</h3>
-              {beer.price}
-              <p title={`${rating} out of 5 stars`}>
-                {`*`.repeat(rating)}
-                {/* <span style={{ filter: `grayscale(100%)` }}>
-                  {`*`.repeat(5 - rating)}
-                </span> This was supposed to be applied to an actual emoji */}
-                <span>({beer.rating.reviews})</span>
-              </p>
-            </SingleBeerStyles>
-          );
-        })}
-      </BeerGridStyles>
-    </>
-    // why doesn't line 16 need an html tag?
-  );
-}
+// export default function BeersPage({ data }) {
+//   return (
+//     <>
+//       <h2 className="center">
+//         We have ${data.beers.nodes.length} beers avaial
+//       </h2>
+//       <BeerGridStyles>
+//         {data.beers.nodes.map((beer) => {
+//           const rating = Math.round(beer.rating.average);
+//           return (
+//             <SingleBeerStyles key={beer.id}>
+//               <img src={beer.image} alt={beer.name} />
+//               <h3>{beer.name}</h3>
+//               {beer.price}
+//               <p title={`${rating} out of 5 stars`}>
+//                 {`*`.repeat(rating)}
+//                 {/* <span style={{ filter: `grayscale(100%)` }}>
+//                   {`*`.repeat(5 - rating)}
+//                 </span> This was supposed to be applied to an actual emoji */}
+//                 <span>({beer.rating.reviews})</span>
+//               </p>
+//             </SingleBeerStyles>
+//           );
+//         })}
+//       </BeerGridStyles>
+//     </>
+//     // why doesn't line 16 need an html tag?
+//   );
+// }
 
-export const query = graphql`
-  query {
-    beers: allBeer {
-      nodes {
-        id
-        name
-        price
-        image
-        rating {
-          average
-          reviews
-        }
-      }
-    }
-  }
-`;
+// export const query = graphql`
+//   query {
+//     beers: allBeer {
+//       nodes {
+//         id
+//         name
+//         price
+//         image
+//         rating {
+//           average
+//           reviews
+//         }
+//       }
+//     }
+//   }
+// `;
