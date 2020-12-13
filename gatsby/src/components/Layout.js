@@ -35,7 +35,7 @@ export default function Layout({ children }) {
       <Typography />
       <SiteBorderStyles>
         <ContentStyles>
-          <Nav />
+          <Nav tacos="yummy" />
           {children}
           <Footer />
         </ContentStyles>
