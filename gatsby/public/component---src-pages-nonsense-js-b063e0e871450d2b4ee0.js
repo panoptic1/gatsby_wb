@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{xR4S:function(n,e,t){"use strict";t.r(e),t.d(e,"default",(function(){return u}));var a=t("q1tI"),r=t.n(a);function u(){return r.a.createElement(r.a.Fragment,null,r.a.createElement("p",null,"This page is nonsense!"))}}}]);
+//# sourceMappingURL=component---src-pages-nonsense-js-b063e0e871450d2b4ee0.js.map

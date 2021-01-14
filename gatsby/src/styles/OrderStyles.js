@@ -16,6 +16,11 @@ const OrderStyles = styled.form`
       grid-column: span 1;
     }
   }
+
+  .simpleSizzurp {
+    display: none;
+  }
+
   @media (max-width: 900px) {
     fieldset.menu,
     fieldset.order {
